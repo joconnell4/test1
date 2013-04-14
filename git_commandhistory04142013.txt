@@ -1,0 +1,212 @@
+    1  mkdir ~/hostshare
+    2  ks
+    3  ls
+    4  quit
+    5  exit
+    6  cd ~/hostshare
+    7  pwd
+    8  sudo nano /etc/fstab
+    9  sudo mount -t vboxsf UbuntuShare home/jessica/hostshare
+   10  sudo mount -t vboxsf -o uid=1000,gid=1000 UbuntuShare /home/jessica/hostshare
+   11  sudo mount -t vboxsf UbuntuShare /home/jessica/hostshare
+   12  cd ~/hostshare
+   13  ls
+   14  sudo mount -t vboxsf -o uid=1000,gid=1000 UbuntuShare /home/jessica/hostshare
+   15  ls
+   16  quit
+   17  exit
+   18  sudo mount -t vboxsf -o uid=1000,gid=1000 UbuntuShare /home/jessica/hostshare
+   19  ls ~/hostshare
+   20  groups username
+   21  sudo usermod -a -G vboxsf username
+   22  groups jessica
+   23  sudo usermod -a -G vboxsf jessica
+   24  groups jessica
+   25  sudo nano /etc/rc.local
+   26  quit
+   27  exit
+   28  groups jessica
+   29  sudo mount -t vboxsf -o uid=1000,gid=1000 UbuntuShare /home/jessica/hostshare
+   30  ls ~/hostshare
+   31  sudo nano /etc/rc.local
+   32  cd/media/sf_UbuntuShare
+   33  cd /media/sf_UbuntuShare
+   34  ls
+   35  sudo nano /etc/rc.local
+   36  exit
+   37  $PATH
+   38  echo $PATH
+   39  quit
+   40  cd /~scripts
+   41  cd ~/scripts
+   42  ls
+   43  echo $PATH
+   44  set
+   45  env
+   46  cd
+   47  echo $SHELL
+   48  nano .bashrc
+   49  $PATH
+   50  nano .bashrc
+   51  $PATH
+   52  $HOME/scripts
+   53  cd $HOME/scripts
+   54  cd
+   55  nano .bashrc
+   56  $PATH
+   57  nano .bashrc
+   58  echo $PATH
+   59  nano .bashrc
+   60  exit
+   61  cd ~/scripts
+   62  ls
+   63  dir.sh
+   64  mount -t vboxsf UbuntuShare mount_point
+   65  sudo mount -t vboxsf UbuntuShare mount_point
+   66  sudo mount -t vboxsf -o uid=1000,gid=1000 UbuntuShare /home/jessica/hostshare
+   67  ls mod|grep vbox
+   68  lsmod | grep vbox
+   69  sudo apt-get install virtualbox-guest-additions-iso
+   70  lsmod | grep vbox
+   71  sudo mount -t vboxsf -o uid=1000,gid=1000 UbuntuShare /home/jessica/hostshare
+   72  sudo sh ./VBox
+   73  sudo apt-get virtualbox-guest-additions-iso uninstall
+   74  sudo apt-get remove virtualbox-guest-additions-iso
+   75  cd media/
+   76  cd /media/
+   77  ls
+   78  sudo sh ./VBoxLinuxAdditions.run
+   79  ./autorun.sh
+   80  sudo '/media/VBOXADDITIONS_4.2.6_82870/VBoxLinuxAdditions.run' 
+   81  cd ~/hostshare
+   82  ls
+   83  cd UbuntuShare_XP/
+   84  ls
+   85  cd field_data/
+   86  ls
+   87  exceltopython.py
+   88  cd ..
+   89  cd ../..
+   90  cd ~/hostshare
+   91  cd field_data/
+   92  exceltopython.py
+   93  mysql -u root
+   94  mysql workbench
+   95  mysql_workbench
+   96  mysql
+   97  mysql -u root
+   98  cd ~/pcfb/examples/ctd
+   99  cd ~/hostshare/pcfb/examples/ctd
+  100  python
+  101  quit
+  102  exit
+  103  cd ~/hostshare/pcfb/
+  104  ls
+  105  cd  examples
+  106  ls
+  107  mylatlon_4.py
+  108  mysql
+  109  python
+  110  mysql
+  111  mysql -u root
+  112  ls Marrus*
+  113  MySQL -u  root
+  114  mysql -u  root
+  115  ls -1 Marrus*
+  116  mysql -u root
+  117  mysql -u root --local-infile=1
+  118  host www.jellywatch.org
+  119  host  134.89.10.74
+  120  cd $HOME
+  121  whois -h whois.arin.net 75.119.192.137
+  122  host  localhost
+  123  mysql
+  124  mysql -u root
+  125  cd  ~/hostshare
+  126  ls
+  127  cd   field_data
+  128  exceltopython.py
+  129  mysql -u root
+  130  ls
+  131  test.py
+  132  pwd
+  133  test.py
+  134  python
+  135  test.py
+  136  ls
+  137  test.py
+  138  exceltopython.py
+  139  MySQL
+  140  mysql -u root
+  141  CREATE TABLE roots (
+  142  mysql -u root
+  143  cd ~/hostshare/field_data
+  144  exceltopython.py
+  145  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EO84DAB9
+  146  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
+  147  sudo apt-get update
+  148  sudo apt-get upgrade
+  149  Quit
+  150  kate
+  151  git clone https://github.com/jkitzes/boot-camps.git
+  152  ls
+  153  cd boot-camps/
+  154  ls
+  155  git checkout 2013-04-ucb
+  156  ls
+  157  cd python
+  158  ls
+  159  ipyhton notebook
+  160  which python
+  161  echo $PATH
+  162  ipython notebook
+  163  git
+  164  git config --global user.name "Jessica O'Connell"
+  165  git config --global user.email "jessicaloconnell@gmail.com"
+  166  git config --global color.ui "auto"
+  167  git config --list
+  168  git config user.name
+  169  ls
+  170  cd hostshare
+  171  mkdir temp
+  172  cd temp
+  173  git init
+  174  ls -la
+  175  ls -l .git
+  176  echo "My first file" >file.txt
+  177  git status
+  178  cat file.txt
+  179  git add file.txt
+  180  git status
+  181  git commit -m"My first commit"
+  182  echo "Another exciting data point to my file" >>file.txt
+  183  cat file.txt
+  184  echo "somethinge" >myfile.txt
+  185  git add .
+  186  git status
+  187  git commit -m"My next commit"
+  188  git status
+  189  kate myfile.txt
+  190  cat myfilt.txt
+  191  cat myfile.txt
+  192  git status
+  193  git diff
+  194  history
+  195  git log
+  196  cd ..
+  197  cd git_temp
+  198  git init
+  199  echo "blah" >newfile.txt
+  200  git add .
+  201  git status
+  202  git commit -m"a new commit"
+  203  git log
+  204  git commit -m"more commit"
+  205  git add .
+  206  git commit -m"more commit"
+  207  git log
+  208  git status
+  209  ls
+  210  git config --global core.editor kate
+  211  git config --global core.editor nano
+  212  history >git_commandhistory04142013.txt
