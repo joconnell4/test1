@@ -1,4 +1,4 @@
-﻿This is the title
+﻿#This is the title
 
 Jessica L O'Connell
 
@@ -6,20 +6,26 @@ University of California at Berkeley
 
 Abstract	 here is our abstract.
 
-INTRODUCTION
+##INTRODUCTION
 
 Our research area is very exciting.
 
-These are our objectives. They are neat.
+These are our objectives. 
+* First objectives
+* Second objective
+* Third objective
 
-METHODS
+They are neat.
+
+##METHODS
+###Study sites
 Our study sites exist. We sampled X number locations
 
-RESULTS
+##RESULTS
 
 We detected a difference in treatments ().
 
-DISCUSSION
+##DISCUSSION
 
 Our study was really interesting.
 
